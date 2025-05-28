@@ -13,7 +13,7 @@ import Button from "../ui/Button";
 const HeroPages = () => {
   const user = useState({
     name: '"Muhammad Hafizi"',
-    projects: ['"Anycomp"', '"eMSC"', '"Oceztra"', '"EzApp"'],
+    projects: ['"Anycomp"', '"eMSC"', '"Oceztra"'],
     passion: '"Building beautiful web experiences"',
   });
   const titleRef = useRef(null);
