@@ -1,0 +1,101 @@
+/* Codebox.css */
+.custom-bg {
+  background: url("/src/assets/jinx3.jpg") no-repeat;
+  background-size: cover; /* Adjust to control image scaling */
+  background-position: 80% 86%; /* Change this to adjust positioning */
+}
+
+/* Desktop View */
+.desktop-view {
+  background: linear-gradient(to bottom right, #1e293b, #0f172a);
+}
+
+/* Taskbar (Dock) */
+.taskbar {
+  height: 64px;
+  background: rgba(45, 55, 72, 0.8);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(248, 250, 252, 0.1);
+}
+
+/* Taskbar Item */
+.taskbar-item {
+  width: 48px;
+  height: 48px;
+  background: #111122;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.taskbar-item:hover {
+  background: rgba(0, 128, 255, 0.5);
+  transform: scale(1.1);
+}
+
+/* Genie Effect Animations */
+@keyframes genie-minimize {
+  0% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5, 0.3) translateY(70%) skewX(30deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0.1, 0.05) translateY(150%) translateX(0);
+    opacity: 0;
+  }
+}
+
+@keyframes genie-restore {
+  0% {
+    transform: scale(0.1, 0.05) translateY(150%) translateX(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0.5, 0.3) translateY(70%) skewX(-30deg);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.code-box {
+  transform-origin: center bottom;
+}
+
+.close-genie {
+  animation: genie-minimize 0.5s ease-in-out forwards;
+}
+
+.open-genie {
+  animation: genie-restore 0.5s ease-in-out forwards;
+}
+
+/* Optional: Enhance the MacBook feel with a slight shadow on hover */
+.code-box:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the close button and "x" icon */
+.close-button {
+  position: relative;
+}
+
+.close-button:hover .close-icon {
+  opacity: 1;
+}
+
+.close-icon {
+  font-size: 8px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
