@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectImages from "../components/ProjectImages";
 import Button from "../ui/Button";
-// import emscimage from "../assets/emsc.png";
-// import ezbook from "../assets/ezapp_book.png";
-// import oceztra from "../assets/oceztra.png";
-// import anycomp from "../assets/anycomp.png";
+import emscimage from "../assets/emsc.png";
+import ezbook from "../assets/ezapp_book.png";
+import oceztra from "../assets/oceztra.png";
+import anycomp from "../assets/anycomp.png";
 import { useState } from "react";
 export const ProjectsPages = () => {
   const [showAll, setShowAll] = useState(false);
@@ -15,7 +15,7 @@ export const ProjectsPages = () => {
       title: "Anycomp",
       description:
         "I developed a product as a freelancer with ST comp Holding Sdn. Bhd.",
-      image: "https://hafizyy.com/images/anycomp.png",
+      image: anycomp,
       tags: [
         "NextJs",
         "JavaScript",
@@ -30,7 +30,7 @@ export const ProjectsPages = () => {
       title: "eMSC Sirim Malaysia",
       description:
         "I developed a scheduling module that synchronized with existing internal systems and external APIs, reducing assignment conflicts and improving auditor utilization rates.",
-      image: "https://hafizyy.com/images/emsc.png",
+      image: emscimage,
       tags: ["SOAD", "JavaScript", "Python", "Java", "MSSQL"],
       liveUrl: "https://emsc.sirim.my/t/emsc/login",
     },
@@ -39,7 +39,7 @@ export const ProjectsPages = () => {
       title: "Oceztra",
       description:
         "I built a task management system that enabled multi-role users to create, edit, and track tasks for both individuals and teams, enhancing task visibility and workflow efficiency.",
-      image: "https://hafizyy.com/images/oceztra.png",
+      image: oceztra,
       tags: ["SOAD", "JavaScript", "Python", "Java", "MYSQL"],
       liveUrl: "https://oceztra.com/",
     },
@@ -48,7 +48,7 @@ export const ProjectsPages = () => {
       title: "EzApp",
       description:
         "I developed key features including room management, user booking, user profiles, user registration, and organization dashboard functionality to ensure secure and efficient user interactions.",
-      image: "https://hafizyy.com/images/ezapp_book.png",
+      image: ezbook,
       tags: ["React", "Redux", "Node.js", "MYSQL"],
       liveUrl: "https://ezapp.sufia.online/ezapp",
     },
