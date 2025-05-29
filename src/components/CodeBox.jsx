@@ -81,25 +81,28 @@ const CodeBox = ({ user }) => {
             <p className="pl-6">
               <span className="text-[#0080ff]">name</span>
               <span className="text-white">:</span>{" "}
-              <span className="text-[#34d399]">{user.name}</span>
+              <span className="text-[#34d399]">{user?.name}</span>
               <span className="text-white">,</span>
             </p>
             <p className="pl-6">
               <span className="text-[#0080ff]">projects</span>
               <span className="text-white">:</span>{" "}
               <span className="text-[#f7b955]">[</span>
-              <span className="text-[#34d399]"> {user.projects[0]}</span>
-              <span className="text-white">,</span>{" "}
-              <span className="text-[#34d399]">{user.projects[1]}</span>
-              <span className="text-white">,</span>{" "}
-              <span className="text-[#34d399]">{user.projects[2]}</span>
+              {user?.projects?.map((project, index) => (
+                <React.Fragment key={index}>
+                  <span className="text-[#34d399]">{project}</span>
+                  {index !== user.projects.length - 1 && (
+                    <span className="text-white">, </span>
+                  )}
+                </React.Fragment>
+              ))}
               <span className="text-[#f7b955]">]</span>
               <span className="text-white">,</span>
             </p>
             <p className="pl-6">
               <span className="text-[#0080ff]">passion</span>
               <span className="text-white">:</span>{" "}
-              <span className="text-[#34d399]">{user.passion}</span>
+              <span className="text-[#34d399]">{user?.passion}</span>
             </p>
             <p>
               <span className="text-[#f7b955]"></span>
