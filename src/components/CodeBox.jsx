@@ -88,7 +88,7 @@ const CodeBox = ({ user }) => {
               <span className="text-[#0080ff]">projects</span>
               <span className="text-white">:</span>{" "}
               <span className="text-[#f7b955]">[</span>
-              {user?.projects?.map((project, index) => (
+              {user.projects.map((project, index) => (
                 <React.Fragment key={index}>
                   <span className="text-[#34d399]">{project}</span>
                   {index !== user.projects.length - 1 && (

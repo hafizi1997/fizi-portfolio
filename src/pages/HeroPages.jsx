@@ -11,11 +11,11 @@ import CodeBox from "../components/CodeBox";
 import Button from "../ui/Button";
 
 const HeroPages = () => {
-  const user = useState({
+  const user = {
     name: '"Muhammad Hafizi"',
     projects: ['"Anycomp"', '"eMSC"', '"Oceztra"'],
     passion: '"Building beautiful web experiences"',
-  });
+  };
   const titleRef = useRef(null);
   useEffect(() => {
     const title = titleRef.current;
