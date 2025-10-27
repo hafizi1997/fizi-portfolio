@@ -19,7 +19,7 @@ const AboutBoxes = ({ aboutData }) => {
         {/* Front Side */}
         <div className="front">
           <Card className="hover:border-[#0080ff]/50 transition-all duration-300 group flex flex-col h-full">
-            <div className="w-12 h-12 rounded-full bg-[#0080ff]/10 flex items-center justify-center mb-4 group-hover:bg-[#0080ff]/20 transition-colors">
+            <div className="w-12 h-12 rounded-full bg-[#0080ff]/10 flex items-center justify-center mb-4 group-hover:bg-[#0080ff]/20 transition-colors beep">
               {about.icon}
             </div>
             <h4 className="font-bold mb-2">{about.title}</h4>

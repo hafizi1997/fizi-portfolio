@@ -15,7 +15,7 @@ export const ProjectsPages = () => {
       title: "Anycomp",
       description:
         "I developed a product as a freelancer with ST comp Holding Sdn. Bhd.",
-      image: "https://hafizyy.com/images/anycomp.png",
+      image: "/src/assets/anycomp.png",
       tags: [
         "NextJs",
         "JavaScript",
@@ -30,36 +30,43 @@ export const ProjectsPages = () => {
       title: "eMSC Sirim Malaysia",
       description:
         "I developed a scheduling module that synchronized with existing internal systems and external APIs, reducing assignment conflicts and improving auditor utilization rates.",
-      image: "https://hafizyy.com/images/emsc.png",
+      image: "/src/assets/emsc.png",
       tags: ["SOAD", "JavaScript", "Python", "Java", "MSSQL"],
       liveUrl: "https://emsc.sirim.my/t/emsc/login",
     },
     {
       id: 3,
+      title: "iGaming",
+      description: "I working with my friend to build a gaming platform",
+      image: "/src/assets/igaming.png",
+      tags: ["React", "inertia", "Laravel", "Mysql"],
+      liveUrl: "https://assistbot.site/",
+    },
+    {
+      id: 4,
+      title: "Admin Dashboard",
+      description: "I working with my friend to build a admin panel dashboard",
+      image: "/src/assets/admin.png",
+      tags: ["React", "inertia", "Laravel", "Mysql"],
+      liveUrl: "https://dd8draw.com/",
+    },
+    {
+      id: 5,
       title: "Oceztra",
       description:
         "I built a task management system that enabled multi-role users to create, edit, and track tasks for both individuals and teams, enhancing task visibility and workflow efficiency.",
-      image: "https://hafizyy.com/images/oceztra.png",
+      image: "/src/assets/oceztra.png",
       tags: ["SOAD", "JavaScript", "Python", "Java", "MYSQL"],
       liveUrl: "https://oceztra.com/",
     },
     {
-      id: 4,
+      id: 6,
       title: "EzApp",
       description:
         "I developed key features including room management, user booking, user profiles, user registration, and organization dashboard functionality to ensure secure and efficient user interactions.",
-      image: "https://hafizyy.com/images/ezapp_book.png",
+      image: "/src/assets/ezapp_book.png",
       tags: ["React", "Redux", "Node.js", "MYSQL"],
       liveUrl: "https://ezapp.sufia.online/ezapp",
-    },
-    {
-      id: 5,
-      title: "DrGuild",
-      description: "My own project about tracking personal growth",
-      image:
-        "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2374&auto=format&fit=crop",
-      tags: ["React", "Node.js", "Express", "MongoDB"],
-      liveUrl: "",
     },
   ];
   const displayedProjects = showAll ? projects : projects.slice(0, 4);

@@ -16,7 +16,7 @@ export const AboutPages = () => {
     experience: {
       icon: <BriefcaseIcon className="text-[#0080ff]" size={24} />,
       title: "Experience",
-      content: " 2 years building modern web applications",
+      content: " 3 years building modern web applications",
       elaborate:
         "I have worked on multiple projects, building and refining applications that are both functional and user-friendly. My experience includes working at Webgeaz Sdn Bhd as a Software Developer and as a Trainee under Yayasan Pahang LAUNCHPAD 360 by TalentCorp",
     },
@@ -36,6 +36,7 @@ export const AboutPages = () => {
     "Tailwind CSS",
     "React",
     "NextJs",
+    "Laravel",
     "Angular",
     "Python",
     "Node.js",

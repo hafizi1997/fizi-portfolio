@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./Codebox.css";
 
 const CodeBox = ({ user }) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const codeBoxRef = useRef(null);
   const taskbarItemRef = useRef(null);
 
@@ -30,7 +30,7 @@ const CodeBox = ({ user }) => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
                 alt="VS Code Logo"
-                className="w-8 h-8"
+                className="w-8 h-8 beep"
               />
             </div>
           </div>

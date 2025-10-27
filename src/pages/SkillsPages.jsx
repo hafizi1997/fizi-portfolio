@@ -7,6 +7,7 @@ const skills = [
   { name: "React", level: 95 },
   { name: "NextJs", level: 90 },
   { name: "NextJs", level: 90 },
+  { name: "Laravel", level: 70 },
   { name: "Angular", level: 65 },
   { name: "flutter", level: 45 },
   { name: "JavaScript & jQuery", level: 90 },
@@ -29,6 +30,7 @@ const skills = [
 const technologies = [
   "React",
   "NextJs",
+  "Laravel",
   "Angular",
   "Flutter",
   "JavaScript",
