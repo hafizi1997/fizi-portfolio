@@ -1,10 +1,6 @@
 import React from "react";
 import ProjectImages from "../components/ProjectImages";
 import Button from "../ui/Button";
-// import emscimage from "../assets/emsc.png";
-// import ezbook from "../assets/ezapp_book.png";
-// import oceztra from "../assets/oceztra.png";
-// import anycomp from "../assets/anycomp.png";
 import { useState } from "react";
 export const ProjectsPages = () => {
   const [showAll, setShowAll] = useState(false);
@@ -15,7 +11,7 @@ export const ProjectsPages = () => {
       title: "Anycomp",
       description:
         "I developed a product as a freelancer with ST comp Holding Sdn. Bhd.",
-      image: "/src/assets/anycomp.png",
+      image: "../src/assets/anycomp.png",
       tags: [
         "NextJs",
         "JavaScript",
@@ -30,7 +26,7 @@ export const ProjectsPages = () => {
       title: "eMSC Sirim Malaysia",
       description:
         "I developed a scheduling module that synchronized with existing internal systems and external APIs, reducing assignment conflicts and improving auditor utilization rates.",
-      image: "/src/assets/emsc.png",
+      image: "../src/assets/emsc.png",
       tags: ["SOAD", "JavaScript", "Python", "Java", "MSSQL"],
       liveUrl: "https://emsc.sirim.my/t/emsc/login",
     },
@@ -38,7 +34,7 @@ export const ProjectsPages = () => {
       id: 3,
       title: "iGaming",
       description: "I working with my friend to build a gaming platform",
-      image: "/src/assets/igaming.png",
+      image: "../src/assets/igaming.png",
       tags: ["React", "inertia", "Laravel", "Mysql"],
       liveUrl: "https://assistbot.site/",
     },
@@ -46,7 +42,7 @@ export const ProjectsPages = () => {
       id: 4,
       title: "Admin Dashboard",
       description: "I working with my friend to build a admin panel dashboard",
-      image: "/src/assets/admin.png",
+      image: "../src/assets/admin.png",
       tags: ["React", "inertia", "Laravel", "Mysql"],
       liveUrl: "https://dd8draw.com/",
     },
@@ -55,7 +51,7 @@ export const ProjectsPages = () => {
       title: "Oceztra",
       description:
         "I built a task management system that enabled multi-role users to create, edit, and track tasks for both individuals and teams, enhancing task visibility and workflow efficiency.",
-      image: "/src/assets/oceztra.png",
+      image: "../src/assets/oceztra.png",
       tags: ["SOAD", "JavaScript", "Python", "Java", "MYSQL"],
       liveUrl: "https://oceztra.com/",
     },
@@ -64,7 +60,7 @@ export const ProjectsPages = () => {
       title: "EzApp",
       description:
         "I developed key features including room management, user booking, user profiles, user registration, and organization dashboard functionality to ensure secure and efficient user interactions.",
-      image: "/src/assets/ezapp_book.png",
+      image: "../src/assets/ezapp_book.png",
       tags: ["React", "Redux", "Node.js", "MYSQL"],
       liveUrl: "https://ezapp.sufia.online/ezapp",
     },
