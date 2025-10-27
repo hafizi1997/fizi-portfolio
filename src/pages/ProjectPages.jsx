@@ -51,7 +51,7 @@ export const ProjectsPages = () => {
       title: "Oceztra",
       description:
         "I built a task management system that enabled multi-role users to create, edit, and track tasks for both individuals and teams, enhancing task visibility and workflow efficiency.",
-      image: "./assets/oceztra.png",
+      image: "/../src/assets/oceztra.png",
       tags: ["SOAD", "JavaScript", "Python", "Java", "MYSQL"],
       liveUrl: "https://oceztra.com/",
     },
@@ -60,7 +60,7 @@ export const ProjectsPages = () => {
       title: "EzApp",
       description:
         "I developed key features including room management, user booking, user profiles, user registration, and organization dashboard functionality to ensure secure and efficient user interactions.",
-      image: "./assets/ezapp_book.png",
+      image: "./../src/assets/ezapp_book.png",
       tags: ["React", "Redux", "Node.js", "MYSQL"],
       liveUrl: "https://ezapp.sufia.online/ezapp",
     },
