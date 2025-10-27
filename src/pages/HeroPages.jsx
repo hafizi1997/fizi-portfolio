@@ -23,7 +23,7 @@ const HeroPages = () => {
 
     const animateText = () => {
       title.innerHTML = ""; // Clear existing text
-      const letters = "Bringing Ideas to Life Through Code".split(""); // Split into characters
+      const letters = "Bringing Ideas to Life Through Coded".split(""); // Split into characters
 
       letters.forEach((letter, i) => {
         const span = document.createElement("span");
