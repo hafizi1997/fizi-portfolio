@@ -27,7 +27,7 @@ export const ProjectsPages = () => {
       description:
         "I developed a scheduling module that synchronized with existing internal systems and external APIs, reducing assignment conflicts and improving auditor utilization rates.",
       image: "../assets/emsc.png",
-      tags: ["SOAD", "JavaScript", "Python", "Java", "MSSQL"],
+      tags: ["React", "JavaScript", "Python", "Java", "MSSQL"],
       liveUrl: "https://emsc.sirim.my/t/emsc/login",
     },
     {
