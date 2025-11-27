@@ -14,7 +14,7 @@ const CardImage = ({ project, isActive, setActiveProject }) => {
     >
       <div className="relative h-60 overflow-hidden">
         <img
-          src={`/src/assets/${project.image}`}
+          src={project.image}
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
         />

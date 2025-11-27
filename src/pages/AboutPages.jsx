@@ -4,6 +4,7 @@ import AboutSkills from "../components/AboutSkills";
 import { UserIcon, BriefcaseIcon, GraduationCapIcon } from "lucide-react";
 import myimage from "../assets/myimage9.png";
 
+
 export const AboutPages = () => {
   const aboutData = {
     personal: {
