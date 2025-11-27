@@ -2,6 +2,14 @@ import React from "react";
 import ProjectImages from "../components/ProjectImages";
 import Button from "../ui/Button";
 import { useState } from "react";
+import emscc from "../assets/emsc.png";
+import oceztra from "../assets/oceztra.png";
+import anycomp from "../assets/anycomp.png";
+import igaming from "../assets/igaming.png";
+import admin from "../assets/admin.png";
+import ezappBook from "../assets/ezapp_book.png";
+
+
 export const ProjectsPages = () => {
   const [showAll, setShowAll] = useState(false);
 
